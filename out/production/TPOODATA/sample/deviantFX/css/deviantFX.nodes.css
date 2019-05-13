@@ -1,0 +1,7 @@
+.elevated{
+    -fx-effect: dropshadow( gaussian , rgba(50,50,50,0.6) , 7, 0.4 , 0 , 1 );
+}
+.rounded{
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+}

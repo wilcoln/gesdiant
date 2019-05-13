@@ -1,0 +1,19 @@
+.badge{
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-padding: 3px;
+    -fx-background-color: grey;
+    -fx-background-radius: 10px;
+}
+.badge-info{
+    -fx-background-color: #5bc0de;
+}
+.badge-success{
+    -fx-background-color: #5cb85c;
+}
+.badge-warning{
+    -fx-background-color: #f0ad4e;
+}
+.badge-danger{
+    -fx-background-color:#d9534f
+}

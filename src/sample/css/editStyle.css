@@ -1,0 +1,10 @@
+Label{
+    -fx-font-weight: bold;
+    -fx-text-fill: grey;
+    -fx-padding: 3px;
+    -fx-font-family: arial;
+    -fx-min-width: 100%;
+}
+GridPane{
+    -fx-background-color: rgba(200,200,200,0.7);
+}

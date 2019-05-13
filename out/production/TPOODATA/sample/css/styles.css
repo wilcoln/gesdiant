@@ -1,0 +1,142 @@
+.header{
+    -fx-background-color: #3f3f3f;
+   -fx-pref-height:  70px;
+    -fx-pref-width: 1200px;
+    -fx-font-size: 25px;
+    -fx-font-weight: bold;
+    -fx-font-family: "Candara";
+}
+.sort-by{
+    -fx-text-fill: grey;
+    -fx-font-size: 15px;
+    -fx-font-family: "Candara";
+}
+.titleApp{
+    -fx-text-fill : #fbb94b;
+}
+.search-container{
+    -fx-background-color: #e8e8e8;
+    -fx-pref-height: 100px;
+    -fx-pref-width: 1200px;
+}
+.search-field{
+    -fx-pref-height: 30px;
+    -fx-max-width: 500px;
+}
+.btn-c{
+    -fx-min-width: 150px;
+    -fx-min-height:60px;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+}
+.item{
+    -fx-border-color: grey;
+    -fx-max-width: 250px;
+    -fx-min-width: 250px;
+    -fx-max-height: 200px;
+    -fx-min-height: 200px;
+    -fx-background-color: whitesmoke;
+}
+.item:hover{
+    -fx-effect: dropshadow( gaussian , rgba(251, 185, 75, 0.6), 20, 0.7 , 0 , 1 );
+}
+.frame1{
+    -fx-background-color: #bbe093;
+    -fx-min-height: 60;
+    -fx-min-width: 60;
+    -fx-background-radius: 30px;
+    -fx-alignment: center;
+}
+.frame2{
+    -fx-background-color: #fea698;
+    -fx-min-height: 60;
+    -fx-min-width: 60;
+    -fx-background-radius: 30px;
+    -fx-alignment: center;
+}
+.frame3{
+    -fx-background-color: #a3c2f1;
+    -fx-min-height: 60;
+    -fx-min-width: 60;
+    -fx-background-radius: 30px;
+    -fx-alignment: center;
+}
+.btn-fix{
+    -fx-pref-width: 60px;
+}
+.add{
+    -fx-pref-width: 60px;
+    -fx-pref-height: 60px;
+    -fx-border-radius: 30px;
+    -fx-background-radius: 30px;
+    -fx-text-fill: white;
+    -fx-background-color: #5cb85c;
+}
+.add:pressed{
+    -fx-effect: dropshadow(three-pass-box , rgba(0, 0, 0, 0),0,0,0,0) !important;
+}
+.add:hover{
+    -fx-effect: dropshadow( three-pass-box , #5cb85c,7,0.5,0,1);
+    -fx-background-color: #69d269;
+}
+TextField{
+    -fx-background-color: transparent;
+    -fx-border-style: solid solid none solid;
+    -fx-border-color: grey;
+    -fx-border-width: 2px;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+}
+TextField:focused{
+    -fx-border-color: #fbb94b;
+    -fx-background-color: #e7e7e7;
+}
+FlowPane{
+    -fx-border-color: grey;
+}
+ComboBox{
+    -fx-background-color: transparent;
+    -fx-text-fill:#808080;
+    -fx-border-radius: 5px;
+    -fx-border-color:#808080;
+    -fx-background-radius: 5px;
+}
+.combo-box-popup .list-view .list-cell{
+    -fx-background-color: grey;
+    -fx-text-fill: white;
+}
+.combo-box-popup .list-view .list-cell:hover, .combo-box-popup .list-view .list-cell:selected {
+    -fx-background-color: #fbb94b;
+}
+/* Remove spacing */
+.pagination > .pagination-control > .control-box {
+    -fx-spacing: 0;
+}
+
+/* You can control the actual button sizes here */
+.pagination > .pagination-control > .control-box > .number-button,
+.pagination > .pagination-control > .control-box > .bullet-button,
+.pagination > .pagination-control > .control-box > .left-arrow-button,
+.pagination > .pagination-control > .control-box > .right-arrow-button {
+    -fx-background-insets: 0, 1;
+    -fx-background-color: lightgray, #FAFAFA;
+    -fx-min-width: 30;
+    -fx-min-height: 30;
+}
+
+/* Colors on hover */
+.pagination > .pagination-control > .control-box > .number-button:hover,
+.pagination > .pagination-control > .control-box > .bullet-button:hover,
+.pagination > .pagination-control > .control-box > .left-arrow-button:hover,
+.pagination > .pagination-control > .control-box > .right-arrow-button:hover {
+    -fx-background-insets: 0;
+    -fx-background-color: lightgray;
+}
+
+/* Selected toggle color */
+.pagination > .pagination-control > .control-box > .number-button:selected,
+.pagination > .pagination-control > .control-box > .bullet-button:selected{
+    -fx-background-insets: 0;
+    -fx-background-color: #fbb94b;
+    -fx-text-fill: white;
+}
